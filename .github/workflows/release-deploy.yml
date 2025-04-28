@@ -16,5 +16,6 @@ jobs:
   release-and-deploy:
     uses: nizarcan/reusable-actions/.github/workflows/release-deploy.yml@main
     with:
-      image_description: 'NGINX static site container'
-      platforms: 'linux/amd64,linux/arm64'
+        runner: 'ubuntu-latest'
+        image_description: 'NGINX static site container'
+        platforms: 'linux/amd64,linux/arm64'
