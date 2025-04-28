@@ -8,7 +8,7 @@ This repository serves primarily as a **template** for creating new Docker appli
 
 ## How It Works
 
-1. This template uses the reusable workflows from your `reusable-github-actions` repository
+1. This template uses the reusable workflows from your `reusable-actions` repository
 2. When you create a new app from this template, it automatically includes the correct workflow references
 3. Your apps maintain consistent build, versioning, and deployment processes
 4. Updates to workflows happen in one place and apply to all derived applications
